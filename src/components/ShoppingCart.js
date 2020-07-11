@@ -9,7 +9,7 @@ import {ShoppingCartContext} from '../contexts/ShoppingCartContext';
 
 const ShoppingCart = () => {
 
-	const {cart} = useContext(ShoppingCartContext);
+	const cart = useContext(ShoppingCartContext);
 
 	const getCartTotal = () => {
 		return cart.reduce((acc, value) => {

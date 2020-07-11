@@ -5,9 +5,9 @@ import {ShoppingCartContext} from '../contexts/ShoppingCartContext';
 
 
 const Navigation = () => {
-
+	
 	const cart = useContext(ShoppingCartContext);
-
+	
 	return (
 		<div className="navigation">
 			<NavLink to="/">Products</NavLink>
