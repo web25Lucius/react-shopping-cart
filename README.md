@@ -14,6 +14,7 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
 In this project you'll take take an almost completed e-commerce store and refactor the application to use the `Context API`.
 
+saving
 ## Project Set Up
 
 - [ ] Create a forked copy of this project.
@@ -117,9 +118,9 @@ const { products, addItem } = useContext(ProductContext);
 
 - Now that we have refactored our `Products` component to utilize `Context API` let's refactor our `Cart` and `Navigation` Component to use `Context API` as well.
 
-- To start create a new file in our contexts folder named `CartContext.js`, this context is going to be utilized by our `ShoppingCart` and `Navigation` component.
+- To start create a new file in our contexts folder named `ShoppingCartContext.js`, this context is going to be utilized by our `ShoppingCart` and `Navigation` component.
 
-- Inside of our new `CartContext` import `createContext` and create a new context named `CartContext`.
+- Inside of our new `ShoppingCartContext` import `createContext` and create a new context named `CartContext`.
 
 **STEP 5 - Providing data with CartContext**
 
